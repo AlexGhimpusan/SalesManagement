@@ -25,4 +25,8 @@ public:
 
 	int getQuantity();
 	void setQuantity(int quantity);
+
+	
+	//Utility functions
+	void displayProduct();
 };
