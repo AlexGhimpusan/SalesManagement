@@ -49,6 +49,6 @@ void Product::setQuantity(int quantity)
 void Product::displayProduct()
 {
 	std::cout << "\n\tName: " << this->getName();
-	std::cout << "\n\t\tPrice: " << this->getPrice();
-	std::cout << "\n\t\tQuantity: " << this->getQuantity();
+	std::cout << "\n\t\t\tPrice: " << this->getPrice();
+	std::cout << "\n\t\t\tQuantity: " << this->getQuantity();
 }
